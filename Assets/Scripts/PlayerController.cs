@@ -7,7 +7,7 @@ public class PlayerController : MonoBehaviour
     Rigidbody2D _rigid;
     Animator _anim;
 
-    public float _speed = 10.0f;
+    public float _speed = 1.0f;
     float _h;                // 수평
     float _v;                // 수직
     int _direction = 0;     // 방향; 0 = Down, 1 = Left, 2 = Up, 3 = Right
